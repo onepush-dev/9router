@@ -35,3 +35,8 @@ Self-hosted [9Router](https://github.com/decolua/9router) (decolua/9router `0.5.
 - After deploy, open the public URL and sign in with the generated `INITIAL_PASSWORD` (Variables tab).
 - Image is pinned by digest so marketplace deploys stay reproducible.
 - Upstream: https://github.com/decolua/9router · Docker Hub: `decolua/9router`
+
+## Deploy notes (Railway)
+- Builder: Dockerfile (pinned `decolua/9router:0.5.95` digest).
+- Healthcheck path: `/api/health` (300s). Volume: `/app/data`.
+- Public port: `20128`.
