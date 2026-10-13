@@ -1,6 +1,6 @@
 # 9Router — multi-provider LLM router with a web UI. Deploy on Railway with one click.
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/TEMPLATE_CODE)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/256czF)
 
 Self-hosted [9Router](https://github.com/decolua/9router) (decolua/9router `0.5.95`) — route LLM traffic across providers, manage API keys, and use the built-in dashboard. Zero deploy-time config: secrets are generated automatically.
 
